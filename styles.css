@@ -337,18 +337,22 @@ main > section {
 
 .job h3 {
   color: #42446e;
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 1.4;
   margin-bottom: 8px;
 }
 
 .job p {
   color: #777;
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 1.6;
   margin-bottom: 5px;
 }
 
 .job-date {
   text-align: right;
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 .language-entry {
@@ -626,6 +630,8 @@ main > section {
 
   .job-date {
     text-align: right;
+    font-size: 20px;
+    line-height: 1.6;
   }
 
   .project-card {
@@ -670,7 +676,7 @@ html.dark {
   .main-title,
   .work-education .main-title,
   .project-content h2 {
-    color: #fff;
+    color: #5b42b3;
   }
 
   .nav-list a,
@@ -699,15 +705,24 @@ html.dark {
 
   .main-title,
   .work-education .main-title {
-    color: white;
+    color: #b4b8e8 ;
+  }
+
+  .job p,
+  #languages-list p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #ffffff;
   }
 
   .job h3 {
-    color: #b4b8e8;
+    color: #5b42b3;
+    font-size: 24px;
+    line-height: 1.4;
   }
 
   #projects .main-title {
-    color: white;
+    color: #b4b8e8;
   }
 
   .project-card {
@@ -715,6 +730,6 @@ html.dark {
   }
 
   .project-content h3 {
-    color: #b4b8e8;
+    color: #5b42b3;
   }
 }
