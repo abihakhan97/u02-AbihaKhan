@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="js/main.js"></script>
+  <title>Abiha Khan | Portfolio</title>
+</head>
+
+<!-- start of body -->
+
+<body>
+  <header class="header">
+    <nav class="navigation">
+      <a class="logo" href="#home">{007}<br>abihaks</a>
+      <div class="dropdown-ham-menu">
+        <button class="dropbtn" type="button">
+          <img src="img/menu.png" alt="bars">
+        </button>
+
+        <div class="dropdown-content">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="social-links">
+        <a href="https://facebook.com/abihakhan97">
+          <img src="img/facebookblack.svg" alt="facebook">
+        </a>
+        <a href="https://linkedin.com/in/abihakhan97/">
+          <img src="img/linkedinblack.png" alt="linkedin">
+        </a>
+        <a href="https://github.com/abihakhan97">
+          <img src="img/github.svg" alt="github">
+        </a>
+      </div>
+      <button id="theme-toggle" type="button" aria-pressed="false">
+        Dark mode
+      </button>
+    </nav>
+  </header>
+
+  <!-- Start page -->
+
+  <main>
+    <section id="home" class="home-text">
+      <h1 class="intro">
+        Hi 👋🏻,<br>
+        My name is<br>
+        <span class="intro-gradient">Abiha KS</span><br>
+        I build things for web
+      </h1>
+      <div class="photo-border">
+        <img class="myfoto" src="img/myfoto1.jpg" alt="Portrait of Abiha">
+      </div>
+    </section>
+
+    <!-- About section -->
+
+    <section id="about">
+      <h2 class="main-title">About me</h2>
+      <p class="about-text">
+        Hi, I’m Abiha Khan, a fullstack development student based in Stockholm, specialising in JavaScript at Chas
+        Academy. Born and raised in Germany with Pakistani parents, I have a multicultural background and speak English,
+        German, Swedish, Urdu, Punjabi, and Hindi. I previously studied at Stockholm University and Södertörn University
+        before starting at Chas Academy in 2026.<br>
+
+        I’m learning to build responsive and interactive websites using HTML, CSS, and JavaScript, while developing my
+        understanding of frontend and backend development. I enjoy combining design with problem-solving to create
+        websites that look good and are easy to use. This portfolio showcases my projects, what I’m learning, and my
+        progress as a developer. </p>
+    </section>
+
+    <!-- Work, education and skills -->
+
+    <section class="work-experience">
+      <h2 class="main-title">Work Experience</h2>
+      <div id="work-list"></div>
+    </section>
+
+    <section class="work-education">
+      <h2 class="main-title">Education</h2>
+      <div id="education-list"></div>
+    </section>
+
+    <section class="languages">
+      <h2 class="main-title">Languages</h2>
+      <div id="languages-list"></div>
+    </section>
+
+    <p id="cv-status" role="status"></p>
+
+    <!-- Projects from Git-Hub -->
+
+    <section id="projects">
+      <h2 class="main-title">Projects</h2>
+      <p class="projects-done">Things I've built so far.</p>
+
+      <div id="project-list" class="project-list"></div>
+
+      <p id="projects-status" role="status"></p>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="contact">
+      <h2>Contact me</h2>
+      For any questions please contact us<br>
+      <span class="contact-info">aks@example.com</span><br>
+      <span class="or-text">or</span><br>
+      <span class="contact-info">+46 12345 67890</span>
+    </section>
+  </main>
+
+  <!-- Footer -->
+
+  <footer class="footer">
+    Designed and Coded by Abiha KS with
+    <span class="footer-text"> Love, Coffee & Matcha </span>
+  </footer>
+</body>
+
+</html>

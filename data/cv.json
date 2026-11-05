@@ -1,0 +1,58 @@
+{
+  "work": [
+    {
+      "title": "Fullstack Developer",
+      "organisation": "Big Corporation",
+      "period": "SOON"
+    },
+    {
+      "title": "Biträdande Övervakare",
+      "organisation": "Frivården Södertörn",
+      "period": "2026-tillsvidare"
+    },
+    {
+      "title": "Bärsäljare",
+      "organisation": "Ljungbyholmsbär AB",
+      "period": "2017"
+    }
+  ],
+  "education": [
+    {
+      "title": "Fullstack Development in JavaScript",
+      "organisation": "Chas Academy",
+      "period": "2026-2028"
+    },
+    {
+      "title": "Bachelor of Economics",
+      "organisation": "Stockholm University",
+      "period": "2021-2024"
+    },
+    {
+      "title": "High School Diploma from Germany",
+      "organisation": "SZ Walle in Bremen",
+      "period": "2013-2016"
+    }
+  ],
+  "languages": [
+    {
+      "title": "German",
+      "proficiency": "Native"
+    },
+    {
+      "title": "English",
+      "proficiency": "Native"
+    },
+    {
+      "title": "Swedish",
+      "proficiency": "Native"
+    },
+    {
+      "title": "Urdu",
+      "proficiency": "Fluent"
+    },
+    {
+      "title": "Hindi",
+      "proficiency": "Fluent"
+    }
+  ]
+}
